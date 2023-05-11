@@ -57,7 +57,7 @@ class Rental {
 // the calculateRentalDuration method.
 
 const car = new Car("Toyota", "Camry", 2020, true);
-const rental = new Rental(car, "Milcah Nkatha", "2023-05-01", "2023-05-05");
+const rental = new Rental(car, "Alice Moraa", "2023-05-01", "2023-05-05");
 const rentalDuration = rental.calculateRentalDuration();
 console.log(rentalDuration);
 
@@ -87,7 +87,7 @@ class Question {
 }
 
 const question = new Question("Where is Mt.Kenya located?", ["Mombasa", "Nakuru", "Nairobi", "Nanyuki"], "Nanyuki");
-const userAnswer = "Nanyuki";
+const userAnswer = "Nakuru";
 const isCorrect = question.checkAnswer(userAnswer);
 console.log(isCorrect); 
 
